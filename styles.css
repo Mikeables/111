@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f0f4c3, #a5d6a7);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* 阴影效果 */
+    background-color: rgb(9, 9, 9);
+}
